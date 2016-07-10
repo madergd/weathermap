@@ -1,8 +1,8 @@
 # Code
-Download and create the artifact running mvn clean install from the root project folder. 
+Download and create the artifact running mvn install from the root project folder. 
 
 # Running 
-Running from withing IntelliJ with jettyrunner or deploy to jetty server
+Running from withing IntelliJ with jettyrunner or deploy the artifact to jetty server
 http://localhost:8080/weathermap/weather.jsp
 
 # Note
