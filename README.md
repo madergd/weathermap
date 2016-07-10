@@ -1,8 +1,10 @@
 # Code
 Download and create the artifact running mvn install from the root project folder. 
 
-# Running 
+# Server 
 Running from withing IntelliJ with jettyrunner or deploy the artifact to jetty server
+
+# Running
 http://localhost:8080/weathermap/weather.jsp
 
 # Note
