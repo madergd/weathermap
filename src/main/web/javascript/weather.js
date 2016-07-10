@@ -12,7 +12,7 @@ function getWeather(){
     var cityname = $("input:radio[name='city']:checked").val();
     var temp = $("input:radio[name='temperature']:checked").val();
     if(cityname && temp) {
-        $.get('ActionServlet', {temperature: temp, city: cityname}, function (responseText) {
+        $.get('./ActionServlet', {temperature: temp, city: cityname}, function (responseText) {
             $('#selectedcity').text(responseText.name);
             $('#date').text(responseText.date);
             $('#sunrise').text("Sunrise: " + responseText.sunrise + " a.m.");
