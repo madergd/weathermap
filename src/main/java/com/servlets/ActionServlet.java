@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-
+@WebServlet("/ActionServlet")
 public class ActionServlet extends HttpServlet {
     private static final String APPLICATION_JSON_CONTENT_TYPE = "application/json";
     private static final String UTF_8_ENCODING = "UTF-8";
